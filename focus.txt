@@ -14,4 +14,12 @@
 	
 	#Deactivating Virtual environment
 	deactivate
+
+3.Django REST framework
+4.asgi and wsgi
+5.middleware
+6.connecting different database in Django
+7.Difference between migrate and makemigrations
+8.Serializers
+9.class Meta
 	

@@ -13,7 +13,7 @@ def countries_list(request):
     if request.method == 'GET':
         countries = Countries.objects.all()
 
-        name = request.GET('name',None)
+        name = request.GET.get('name',None)
         if name is not None:
             countries = countries.filter(name__icontains=name)
 

@@ -22,4 +22,5 @@
 7.Difference between migrate and makemigrations
 8.Serializers
 9.class Meta
+10.Different HTTP methods
 	

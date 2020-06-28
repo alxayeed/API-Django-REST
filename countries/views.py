@@ -34,7 +34,7 @@ def countries_detail(request, pk):
     try:
         countries = Countries.objects.get(pk=pk)
     except Countries.DoesNotExist:
-        return JsonResponse({'message': 'The country does not exist'}. status=status.HTTP_404_NOT_FOUND)
+        return JsonResponse({'message': 'The country does not exist'}, status=status.HTTP_404_NOT_FOUND)
     
     if request.method == 'GET':
         countries_serializer  = CountriesSerializer(countries)

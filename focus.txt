@@ -23,4 +23,10 @@
 8.Serializers
 9.class Meta
 10.Different HTTP methods
+11.r in url - indicates the expression will be raw string
+12.^ in url- beginning of the text
+12.$ in url- end of the text
+13.+ in the url - previous item should be repeated at least one
+14.named regex group
+15.path,repath,url
 	

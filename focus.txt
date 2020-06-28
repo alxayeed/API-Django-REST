@@ -1,0 +1,17 @@
+1.Python in PATH variable
+2.Virtual Environment
+	# Create a new project
+	2.1 $ mkdir <YOURPROJECT>
+	
+	# Change directory to that project
+	2.2 $ cd <YOURPROJECT>
+	
+	#Creating new virtualenv
+	2.3 $ virtualenv <NEWVIRTUALENV>/ python3 -m venv <NEWVIRTUALENV>
+	
+	# Activating that new
+	2.4 $ source <NEWVIRTUALENV>/bin/activate
+	
+	#Deactivating Virtual environment
+	deactivate
+	

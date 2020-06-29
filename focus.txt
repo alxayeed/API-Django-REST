@@ -14,6 +14,9 @@
 	
 	#Deactivating Virtual environment
 	deactivate
+	
+	#install from venv
+	pip install -r requirements.txt
 
 3.Django REST framework
 4.asgi and wsgi
